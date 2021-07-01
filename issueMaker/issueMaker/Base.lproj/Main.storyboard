@@ -25,18 +25,29 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이슈2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4x-eO-Vwq">
+                                <rect key="frame" x="187" y="471" width="40" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rme-hH-Jhr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="S4x-eO-Vwq" firstAttribute="top" secondItem="iwN-in-6tY" secondAttribute="bottom" constant="7.5" id="3Ht-mU-SMo"/>
                             <constraint firstItem="iwN-in-6tY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WGz-EW-jS7"/>
                             <constraint firstItem="iwN-in-6tY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="l5i-bq-jOb"/>
+                            <constraint firstItem="S4x-eO-Vwq" firstAttribute="centerX" secondItem="iwN-in-6tY" secondAttribute="centerX" id="ptA-GP-R8n"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="107" y="89"/>
+            <point key="canvasLocation" x="105.79710144927537" y="88.392857142857139"/>
         </scene>
     </scenes>
     <resources>
